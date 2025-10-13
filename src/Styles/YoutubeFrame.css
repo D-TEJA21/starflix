@@ -1,0 +1,146 @@
+/* 🌟 Full Width Container */
+.theater-section {
+  width: 100%;                /* ✅ FULL WIDTH */
+  margin: 0;
+  padding: 20px 5%;
+  background-color: #020d18;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+/* 🔸 Header */
+.movieshead-yf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.movieshead-yf h4 {
+  margin: 0;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.movieshead-yf a {
+  color: #ffcc00;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.movieshead-yf a:hover {
+  text-decoration: underline;
+}
+
+/* 🟡 Video + Thumbnails Row */
+.video-thumbnails-row {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+/* 🎥 Left: Main Video */
+.main-video {
+  flex: 2;
+  width: 100%;
+}
+
+.main-video iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+/* 🖼️ Right: Thumbnails Column */
+.thumbnail-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  max-height: 450px;
+  padding-right: 5px;
+}
+
+.thumb-item {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  background-color: #0e1826;
+  border-radius: 6px;
+  padding: 6px;
+  transition: background-color 0.2s;
+}
+
+.thumb-item:hover {
+  background-color: #1b2a3a;
+}
+
+.thumb-item.active {
+  border: 2px solid #ffcc00;
+}
+
+.thumb-item img {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.thumb-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thumb-title {
+  font-size: 0.9rem;
+  color: white;
+  margin: 0;
+  font-weight: bold;
+}
+
+.thumb-duration {
+  font-size: 0.75rem;
+  color: #aaa;
+  margin: 0;
+}
+
+/* ✅ Scrollbar Styling */
+.thumbnail-column::-webkit-scrollbar {
+  width: 6px;
+}
+
+.thumbnail-column::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .video-thumbnails-row {
+    flex-direction: column;
+  }
+
+  .thumbnail-column {
+    flex-direction: row;
+    max-height: none;
+    overflow-x: auto;
+  }
+
+  .thumb-item {
+    flex-direction: column;
+    min-width: 150px;
+    align-items: center;
+  }
+
+  .thumb-item img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,166 @@
+/* Banner CSS*/
+.banner{
+    
+      width: 100%;
+      height: 100vh;
+      padding: 20px;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+}
+.banner::before{
+      content: "";
+      background-color: #0b131b;
+      position:absolute;
+      top: 0%;
+      width: 100%;
+      height: 100%;
+      opacity: 0.6;
+}
+.banner-content {
+      position: absolute;
+      color: white;
+}
+.banner-content img,.banner-content p{
+    margin-bottom: 4rem;
+}
+.banner-content p{
+    font-size: 24px;
+}
+.banner-content h1{
+        font-size: 48px;
+}
+.banner-head{
+        color: #10abdc;
+}
+.banner-content .btn-login{
+    background-color: #10abdc !important;
+    color: white;
+    padding:1em 5em;
+    border-radius: 50px;
+    border: none;
+}
+
+/* Login.css */
+
+/* Modal content box */
+#loginModal .modal-content {
+  max-width: 520px;            /* visual width of the white card */
+  margin: 0 auto;
+  background: #ffffff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 18px 50px rgba(0,0,0,0.65);
+  overflow: hidden;
+}
+
+/* Remove default header/footer borders */
+#loginModal .modal-header,
+#loginModal .modal-footer {
+  border: 0;
+  padding: 0;
+}
+
+/* Center modal body content and add inner spacing */
+#loginModal .modal-body {
+  padding: 36px 42px;
+  text-align: center;
+  background: #fff;
+}
+
+/* Large, tall, spaced heading like the image */
+#loginModal .modal-body h3 {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  font-size: 35px;
+  line-height: 1;
+  margin: 0 0 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+
+/* Form container alignment */
+#loginModal form {
+  text-align: left; /* labels & inputs left-aligned inside card */
+}
+
+/* Small label style */
+#loginModal label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: #666;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Inputs: thin borders, flat look */
+#loginModal .form-control {
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #222;
+  background: transparent;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  box-shadow: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+/* Input focus */
+#loginModal .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #d0d0d0;
+}
+
+/* Add some spacing between form groups */
+#loginModal .mb-3 {
+  margin-bottom: 18px;
+}
+
+/* Blue full-width login button (flat) */
+#loginModal .btn.w-100 {
+  display: block;
+  width: 100%;
+  padding: 13px 16px;
+  background-color: #10abdc;   /* cyan from your snippet/photo */
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color .18s ease, transform .06s ease;
+}
+
+/* Hover / active states */
+#loginModal .btn.w-100:hover,
+#loginModal .btn.w-100:focus {
+  background-color: #0d93b7;
+  transform: translateY(-1px);
+}
+
+/* Keep the close button small and unobtrusive */
+#loginModal .btn-close {
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
+
+/* Footer area is intentionally empty and centered in the image */
+#loginModal .modal-footer {
+  padding: 18px 0 10px;
+}
+
+/* Responsive tweaks for small screens */
+@media (max-width: 576px) {
+  #loginModal .modal-content { margin: 0 10px; }
+  #loginModal .modal-body { padding: 22px; }
+  #loginModal .modal-body h3 { font-size: 36px; }
+}
