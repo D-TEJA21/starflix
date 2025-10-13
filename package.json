@@ -2,7 +2,7 @@
   "name": "sampleproject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://D-TEJA21.github.io/starflix",
+  "homepage": "https://d-teja21.github.io/starflix",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^7.0.1",
     "@fortawesome/react-fontawesome": "^3.0.2",
