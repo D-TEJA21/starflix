@@ -23,17 +23,18 @@ const Login = ({ setToken }) => {
   return (
     <div>
       {/* Banner Section */}
-      <section className="banner" style={{ backgroundImage: "url('./Images/login.png')" }}>
+      <section className="banner" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/Images/login.png)` }}>
         <div className="banner-content">
-          <img src="./Images/logo1.png" alt="logo" width="200px" />
+          <img src={`${process.env.PUBLIC_URL}/Images/logo1.png`} alt="logo" width="200px" />
           <h1>Unlimited streaming of</h1>
           <h1 className="banner-head">movies,series,and more.</h1>
           <p>All your favorites in one place. Start watching now.</p>
 
           {/* Button trigger modal */}
-          <a href="#" className="btn-login" data-bs-toggle="modal" data-bs-target="#loginModal">
-            <b> LOGIN</b>
-          </a>
+        
+          <button type="button" className="btn-login" data-bs-toggle="modal" data-bs-target="#loginModal">
+  <b>LOGIN</b>
+</button>
 
           {/* Modal */}
           <div
