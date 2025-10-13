@@ -9,44 +9,44 @@ import { useNavigate } from "react-router-dom";
 // ✅ Movie Data
 const allmovies = [
   // telugu movies
-  { title: "RRR", image: "./Images/rrr1.jpg", language: "TELUGU" },
-  { title: "SALAAR", image: "./Images/salaar.jpg", language: "TELUGU" },
-  { title: "JERSEY", image: "./Images/jersey.jpg", language: "TELUGU" },
-  { title: "JAANU", image: "./Images/jaanu2.webp", language: "TELUGU" },
-  { title: "KALKI 2898-AD", image: "./Images/kalki1.webp", language: "TELUGU" },
-  { title: "HIT The third case", image: "./Images/hit.webp", language: "TELUGU" },
-  { title: "MAD SQUARE", image: "./Images/mad.png", language: "TELUGU" },
+  { title: "RRR", image: process.env.PUBLIC_URL + "/Images/rrr1.jpg", language: "TELUGU" },
+  { title: "SALAAR", image: process.env.PUBLIC_URL + "/Images/salaar.jpg", language: "TELUGU" },
+  { title: "JERSEY", image: process.env.PUBLIC_URL + "/Images/jersey.jpg", language: "TELUGU" },
+  { title: "JAANU", image: process.env.PUBLIC_URL + "/Images/jaanu2.webp", language: "TELUGU" },
+  { title: "KALKI 2898-AD", image: process.env.PUBLIC_URL + "/Images/kalki1.webp", language: "TELUGU" },
+  { title: "HIT The third case", image: process.env.PUBLIC_URL + "/Images/hit.webp", language: "TELUGU" },
+  { title: "MAD SQUARE", image: process.env.PUBLIC_URL + "/Images/mad.png", language: "TELUGU" },
 
   // english movies
-  { title: "OPPENHEIMER", image: "./Images/opp.webp", language: "ENGLISH" },
-  { title: "AVATAR The way of water", image: "./Images/avatar.jpg", language: "ENGLISH" },
-  { title: "AVENGERS", image: "./Images/av1.jpg", language: "ENGLISH" },
-  { title: "PIRATES of The CARIBBEAN", image: "./Images/pi2.jpg", language: "ENGLISH" },
-  { title: "INTERSTELLAR", image: "./Images/int1.png", language: "ENGLISH" },
-  { title: "THE BATMAN", image: "./Images/bat2.jpg", language: "ENGLISH" },
-  { title: "THE MEG", image: "./Images/meg1.webp", language: "ENGLISH" },
+  { title: "OPPENHEIMER", image: process.env.PUBLIC_URL + "/Images/opp.webp", language: "ENGLISH" },
+  { title: "AVATAR The way of water", image: process.env.PUBLIC_URL + "/Images/avatar.jpg", language: "ENGLISH" },
+  { title: "AVENGERS", image: process.env.PUBLIC_URL + "/Images/av1.jpg", language: "ENGLISH" },
+  { title: "PIRATES of The CARIBBEAN", image: process.env.PUBLIC_URL + "/Images/pi2.jpg", language: "ENGLISH" },
+  { title: "INTERSTELLAR", image: process.env.PUBLIC_URL + "/Images/int1.png", language: "ENGLISH" },
+  { title: "THE BATMAN", image: process.env.PUBLIC_URL + "/Images/bat2.jpg", language: "ENGLISH" },
+  { title: "THE MEG", image: process.env.PUBLIC_URL + "/Images/meg1.webp", language: "ENGLISH" },
 
   // hindi movies
-  { title: "DANGAL", image: "./Images/da.jpg", language: "HINDI" },
-  { title: "FIGHTER", image: "./Images/fig1.webp", language: "HINDI" },
-  { title: "PATHAAN", image: "./Images/pat1.jpg", language: "HINDI" },
-  { title: "12 FAIL", image: "./Images/12.webp", language: "HINDI" },
-  { title: "TIGER 3", image: "./Images/ti.webp", language: "HINDI" },
-  { title: "KABIR SINGH", image: "./Images/ka.jpg", language: "HINDI" },
-  { title: "CHHAAVA", image: "./Images/chhaava.png", language: "HINDI" },
+  { title: "DANGAL", image: process.env.PUBLIC_URL + "/Images/da.jpg", language: "HINDI" },
+  { title: "FIGHTER", image: process.env.PUBLIC_URL + "/Images/fig1.webp", language: "HINDI" },
+  { title: "PATHAAN", image: process.env.PUBLIC_URL + "/Images/pat1.jpg", language: "HINDI" },
+  { title: "12 FAIL", image: process.env.PUBLIC_URL + "/Images/12.webp", language: "HINDI" },
+  { title: "TIGER 3", image: process.env.PUBLIC_URL + "/Images/ti.webp", language: "HINDI" },
+  { title: "KABIR SINGH", image: process.env.PUBLIC_URL + "/Images/ka.jpg", language: "HINDI" },
+  { title: "CHHAAVA", image: process.env.PUBLIC_URL + "/Images/chhaava.png", language: "HINDI" },
 
   // tamil movies
-  { title: "JAILER", image: "./Images/ja1.jpg", language: "TAMIL" },
-  { title: "NILAVUKU EN MEL ENNADI KOBAM ", image: "./Images/ni.jpg", language: "TAMIL" },
-  { title: "DRAGON", image: "./Images/dr.jpg", language: "TAMIL" },
-  { title: "TOURIST FAMILY", image: "./Images/tf3.jpg", language: "TAMIL" },
-  { title: "VIKRAM", image: "./Images/vi1.jpg", language: "TAMIL" },
-  { title: "AMARAN", image: "./Images/am.jpg", language: "TAMIL" },
+  { title: "JAILER", image: process.env.PUBLIC_URL + "/Images/ja1.jpg", language: "TAMIL" },
+  { title: "NILAVUKU EN MEL ENNADI KOBAM", image: process.env.PUBLIC_URL + "/Images/ni.jpg", language: "TAMIL" },
+  { title: "DRAGON", image: process.env.PUBLIC_URL + "/Images/dr.jpg", language: "TAMIL" },
+  { title: "TOURIST FAMILY", image: process.env.PUBLIC_URL + "/Images/tf3.jpg", language: "TAMIL" },
+  { title: "VIKRAM", image: process.env.PUBLIC_URL + "/Images/vi1.jpg", language: "TAMIL" },
+  { title: "AMARAN", image: process.env.PUBLIC_URL + "/Images/am.jpg", language: "TAMIL" },
 
   // malayalam movies
-  { title: "MANJUMMEL BOYS", image: "./Images/ma1.jpg", language: "MALAYALAM" },
-  { title: "GYMKHANA", image: "./Images/ga.jpg", language: "MALAYALAM" },
-  { title: "AAVESHAM", image: "./Images/aa1.jpg", language: "MALAYALAM" },
+  { title: "MANJUMMEL BOYS", image: process.env.PUBLIC_URL + "/Images/ma1.jpg", language: "MALAYALAM" },
+  { title: "GYMKHANA", image: process.env.PUBLIC_URL + "/Images/ga.jpg", language: "MALAYALAM" },
+  { title: "AAVESHAM", image: process.env.PUBLIC_URL + "/Images/aa1.jpg", language: "MALAYALAM" },
 ];
 
 const Movies = () => {

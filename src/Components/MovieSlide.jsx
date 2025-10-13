@@ -1,9 +1,11 @@
-import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import Button from 'react-bootstrap/Button';
-import { FaStar, FaPlay, FaHeart, FaShareAlt } from 'react-icons/fa';
-import '../Styles/MovieSlide.css';
+import React from "react";
+import Carousel from "react-bootstrap/Carousel";
+import Button from "react-bootstrap/Button";
+import { FaStar, FaPlay, FaHeart, FaShareAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../Styles/MovieSlide.css";
 
 const movies = [
   {
@@ -41,14 +43,15 @@ const movies = [
 const MovieSlide = () => {
   const navigate = useNavigate();
 
-  // Utility to convert title to URL-friendly slug
   const slugify = (title) =>
-    title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9\-]/g, "");
+    title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 
   return (
     <div
       className="movie-slide-wrapper"
-      style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/Images/login.png)` }}
+      style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL}/Images/login.png)`,
+      }}
     >
       <div className="overlay-content">
         <Carousel indicators={false} controls={true}>
@@ -58,24 +61,28 @@ const MovieSlide = () => {
                 {/* Left Section */}
                 <div className="slide-left">
                   <div className="badges">
-                    {movie.genres.map((genre, i) => (
-                      <span
-                        key={i}
-                        className={`badge genre-${genre.toLowerCase()}`}
-                      >
-                        {genre}
-                      </span>
-                    ))}
+                    {movie.genres &&
+                      movie.genres.map((genre, i) => (
+                        <span
+                          key={i}
+                          className={`badge genre-${genre.toLowerCase()}`}
+                        >
+                          {genre}
+                        </span>
+                      ))}
                   </div>
 
-                  <h1><b>{movie.title}</b></h1>
+                  <h1>
+                    <b>{movie.title}</b>
+                  </h1>
                   <p className="description">{movie.description}</p>
 
                   <div className="buttons">
                     <Button
                       variant="outline-info"
-                      onClick={() => navigate(`/movies/${slugify(movie.title)}`)}
-                      style={{ cursor: "pointer" }}
+                      onClick={() =>
+                        navigate(`/movies/${slugify(movie.title)}`)
+                      }
                     >
                       <FaPlay /> WATCH TRAILER
                     </Button>
@@ -100,8 +107,9 @@ const MovieSlide = () => {
                   <Button
                     className="detail-btn"
                     variant="info"
-                    onClick={() => navigate(`/movies/${slugify(movie.title)}`)}
-                    style={{ cursor: "pointer" }}
+                    onClick={() =>
+                      navigate(`/movies/${slugify(movie.title)}`)
+                    }
                   >
                     MORE DETAIL
                   </Button>
