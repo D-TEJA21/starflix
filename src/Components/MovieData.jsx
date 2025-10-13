@@ -1,7 +1,7 @@
 export const movies = [
   {
     title: "OPPENHEIMER",
-    image: "/Images/opp.webp",
+    image: "./Images/opp.webp",
     language: "ENGLISH",
     rating: "8.3",
     url: "https://www.youtube.com/embed/uYPbbksJxIg?si=BIhAnmSjZOnnHYXj",
@@ -37,7 +37,7 @@ export const movies = [
   },
 
   {
-        title: "AVATAR The way of water", image: "../Images/avatar.jpg", rating: "8.8", language: "ENGLISH",
+        title: "AVATAR The way of water", image: ".../Images/avatar.jpg", rating: "8.8", language: "ENGLISH",
         url: "https://www.youtube.com/embed/mg7zZ40o5lw?si=bp46P_883id2PHON",
         description: "Avatar: The Way of Water is a 2022 epic science fiction film directed by James Cameron. Set more than a decade after the first film, it follows the Sully family (Jake, Neytiri, and their children) as they navigate challenges and battles to keep each other safe on the extrasolar moon Pandora.",
         director: "James Cameron", stars: "	Sam Worthington,Zoe Saldana,Sigourney Weaver,Stephen Lang,Kate Winslet",
@@ -72,7 +72,7 @@ export const movies = [
 
 
     {
-        title: "AVENGERS", image: "../Images/av1.jpg", rating: "8.4", language: "ENGLISH",
+        title: "AVENGERS", image: ".../Images/av1.jpg", rating: "8.4", language: "ENGLISH",
         url: "https://www.youtube.com/embed/TcMBFSGVi1c?si=ebJJ6KFUwZ1sMpCZ",
         description: "In 2018, 23 days after Thanos erased half of all life in the universe,Carol Danvers rescues Tony Stark and Nebula from deep space. They reunite with the remaining Avengers Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes and Rocket on Earth. Locating Thanos on an uninhabited planet, they plan to use the Infinity Stones to reverse his actions but find that Thanos has destroyed them. Enraged, Thor decapitates Thanos.",
         director: "Anthony Russo,Joe Russo", stars: "Robert Downey Jr.,Chris Evans,Mark Ruffalo,Chris Hemsworth,Scarlett Johansson",
@@ -105,7 +105,7 @@ export const movies = [
 
 
     {
-        title: "PIRATES OF THE CARIBBEAN", image: "../Images/pi2.jpg", rating: "7.0", language: "ENGLISH",
+        title: "PIRATES OF THE CARIBBEAN", image: ".../Images/pi2.jpg", rating: "7.0", language: "ENGLISH",
         url: "https://www.youtube.com/embed/XibzC-e_s5M?si=Cv7ZD-gIzhg2KRPb",
         description: "Pirates of the Caribbean: Dead Men Tell No Tales (released internationally as Pirates of the Caribbean: Salazar's Revenge) is a 2017 American swashbuckler fantasy film directed by Joachim Rønning and Espen Sandberg, produced by Jerry Bruckheimer, and written by Jeff Nathanson from a story credited to both Nathanson and executive producer Terry Rossio.",
         director: "Joachim Ronning, Espen Sandberg", stars: "Johnny Depp,Javier Bardem,Brenton Thwaites,Kaya Scodelario,Kevin McNally",
@@ -138,7 +138,7 @@ export const movies = [
 
 
     {
-        title: "INTERSTELLAR", image: "../Images/int1.png", rating: "8.7", language: "ENGLISH",
+        title: "INTERSTELLAR", image: ".../Images/int1.png", rating: "8.7", language: "ENGLISH",
         url: "https://www.youtube.com/embed/zSWdZVtXT7E?si=EpjjON4rx9i1eUTb",
         description: "Interstellar is a science fiction film directed by Christopher Nolan, set in a future where Earth is becoming uninhabitable. The story follows Joseph Cooper, a former NASA pilot, who is tasked with leading a team of scientists on a mission to find a new habitable planet for humanity through interstellar travel.",
         director: "Christopher Nolan", stars: "Matthew McConaughey,Anne Hathaway,Jessica Chastain,John Lithgow",
@@ -171,7 +171,7 @@ export const movies = [
 
 
     {
-        title: "THE BATMAN", image: "../Images/bat2.jpg", rating: "7.8", language: "ENGLISH",
+        title: "THE BATMAN", image: ".../Images/bat2.jpg", rating: "7.8", language: "ENGLISH",
         url: "https://www.youtube.com/embed/mqqft2x_Aa4?si=Do8yvjOaSS1zlu7B",
         description: "The Batman is a 2022 American superhero film based on the DC Comics character Batman. Directed by Matt Reeves from a screenplay he wrote with Peter Craig, it is a reboot of the Batman film franchise produced by DC Films. Robert Pattinson stars as Bruce Wayne / Batman alongside Zoë Kravitz, Paul Dano, Jeffrey Wright, John Turturro, Peter Sarsgaard, Andy Serkis, and Colin Farrell.",
         director: "	Matt Reeves", stars: "Robert Pattinson,Zoe Kravitz,Paul Dano",
@@ -204,7 +204,7 @@ export const movies = [
 
 
     {
-        title: "THE MEG", image: "../Images/meg1.webp", rating: "5.7", language: "ENGLISH",
+        title: "THE MEG", image: ".../Images/meg1.webp", rating: "5.7", language: "ENGLISH",
         url: "https://www.youtube.com/embed/udm5jUA-2bs?si=5Lnot77KUxP1E6Re",
         description: "The Meg is a movie about a group of scientists who encounter a 75-foot-long megalodon shark while on a rescue mission on the floor of the Pacific Ocean. The movie is loosely based on Steve Alten's novel, Meg: A Novel of Deep Terror. The film stars Jason Statham, Li Bingbing, Rainn Wilson, Ruby Rose, Winston Chao, and Cliff Curtis.",
         director: "Jon Turteltaub", stars: "Jason Statham,Bingbing Li,Rainn Wilson", genres: "Action,Horror,Sci-Fi,Thriller",
@@ -234,7 +234,7 @@ export const movies = [
         ]
     },
     {
-        title: "WARFARE", image: "../Images/warfare.jpg", rating: "7.3", language: "ENGLISH",
+        title: "WARFARE", image: ".../Images/warfare.jpg", rating: "7.3", language: "ENGLISH",
         url: "https://www.youtube.com/embed/JER0Fkyy3tw?si=FhMOEgubVDjW7BYZ",
         description: "Warfare: Directed by Ray Mendoza, Alex Garland. With Joseph Quinn, D'Pharaoh Woon-A-Tai, Cosmo Jarvis, Aaron Mackenzie. A platoon of Navy SEALs embark on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
         director: "Alex Garland,Ray Mendoza", stars: "D'Pharaoh Woon-A-Tai,Will Poulter,Cosmo Jarvis", genres: "Action, Drama, War",
@@ -268,7 +268,7 @@ export const movies = [
     // hindi movies
 
     {
-        title: "DANGAL", image: "../Images//da.jpg", rating: "8.3", language: "HINDI",
+        title: "DANGAL", image: ".../Images//da.jpg", rating: "8.3", language: "HINDI",
         url: "https://www.youtube.com/embed/x_7YlGv9u1g?si=Oi2ewj_OvrXup823",
         description: "Dangal is a 2016 Indian Hindi-language biographical sports drama film directed by Nitesh Tiwari and produced by Aamir Khan and Kiran Rao under Aamir Khan Productions with Siddharth Roy Kapur under The Walt Disney Company India. The film stars Khan as Mahavir Singh Phogat, a pehlwani amateur wrestler who trains his daughters Geeta Phogat and Babita Kumari to become India's first world-class female wrestlers.",
         director: "Nitesh Tiwari", stars: "Aamir Khan,Sakshi Tanwar,Fatima Sana Shaikh", genres: "Action,Biography,Drama,Sport",
@@ -300,7 +300,7 @@ export const movies = [
 
 
     {
-        title: "FIGHTER", image: "../Images/fig1.jpg", rating: "6.4", language: "HINDI",
+        title: "FIGHTER", image: ".../Images/fig1.jpg", rating: "6.4", language: "HINDI",
         url: "https://www.youtube.com/embed/6amIq_mP4xM?si=e8Xn675XOv796gwL",
         description: "Fighter is a 2024 Indian Hindi-language aerial action film directed by Siddharth Anand, based on a story he wrote with Ramon Chibb. Produced by Viacom18 Studios and Marflix Pictures, it stars Hrithik Roshan, Deepika Padukone, and Anil Kapoor, while Karan Singh Grover, Akshay Oberoi and Rishabh Sawhney play supporting roles. The film is the first installment in a planned aerial action franchise.",
         director: "Siddharth Anand", stars: "Hrithik Roshan,Deepika Padukone,Anil Kapoor", genres: "Action,Drama",
@@ -332,7 +332,7 @@ export const movies = [
 
 
     {
-        title: "PATHAAN", image: "../Images/pat1.jpg", rating: "5.8", language: "HINDI",
+        title: "PATHAAN", image: ".../Images/pat1.jpg", rating: "5.8", language: "HINDI",
         url: "https://www.youtube.com/embed/vqu4z34wENw?si=mCOCvxR5x8TPcwMT",
         description: "The film follows Pathaan, an exiled RAW agent, who works with ISI agent Rubina Mohsin, to take down Jim, a former RAW agent turned rogue, who plans to attack India with a deadly lab-generated virus. Principal photography commenced in November 2020 in Mumbai.",
         director: "Siddharth Anand", stars: "Shah Rukh Khan,Deepika Padukone,John Abraham,Dimple Kapadia,Ashutosh Rana", genres: "Action,Adventure,Thriller",
@@ -364,7 +364,7 @@ export const movies = [
 
 
     {
-        title: "12 FAIL", image: "../Images/12.webp", rating: "8.7", language: "HINDI",
+        title: "12 FAIL", image: ".../Images/12.webp", rating: "8.7", language: "HINDI",
         url: "https://www.youtube.com/embed/WeMJo701mvQ?si=goKjOL_4y5nHPOSh",
         description: "Based on Anurag Pathak`s bestselling novel of the same name, 12th Fail depicts the true story of an IPS officer Manoj Kumar Sharma hailing from a small town in Chambal, who fearlessly embraced the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt for the world`s toughest competitive exam, UPSC.",
         director: "Vidhu Vinod Chopra", stars: "Vikrant Massey,Medha Shankar,Anant Joshi,Anshumaan Pushkar", genres: "Biography,Drama",
@@ -396,7 +396,7 @@ export const movies = [
 
 
     {
-        title: "TIGER 3", image: "../Images/ti.webp", rating: "5.7", language: "HINDI",
+        title: "TIGER 3", image: ".../Images/ti.webp", rating: "5.7", language: "HINDI",
         url: "https://www.youtube.com/embed/vEjTUDjjU6A?si=lCfLPvZZB_llhb4l",
         description: "Tiger 3 story: Tiger (Salman Khan) and his partner Zoya (Katrina Kaif) face a harrowing personal threat when a vengeful terrorist, Aatish Rehman (Emraan Hashmi) from Pakistan, issues an ultimatum— they must comply with his demands or risk losing their son to a brutal fate.",
         director: "	Maneesh Sharma", stars: "Salman Khan,Katrina Kaif,Emraan Hashmi", genres: "Action,Adventure,Thriller",
@@ -428,7 +428,7 @@ export const movies = [
 
 
     {
-        title: "KABIR SINGH", image: "../Images/ka.jpg", rating: "7.0", language: "HINDI",
+        title: "KABIR SINGH", image: ".../Images/ka.jpg", rating: "7.0", language: "HINDI",
         url: "https://www.youtube.com/embed/RiANSSgCuJk?si=T6wh5PfID0zeKpC1",
         description: "Story: ‘Kabir Singh’ is an official remake of the Telugu blockbuster 'Arjun Reddy'. The film charts the journey of a short tempered doctor Kabir Singh (Shahid Kapoor), whose obsession for his girlfriend leads him on the path to self-destruction.",
         director: "Sandeep Reddy Vanga", stars: "Shahid Kapoor,Kiara Advani", genres: "Drama,Romance",
@@ -460,7 +460,7 @@ export const movies = [
 
 
     {
-        title: "CHHAAVA", image: "../Images/chhaava.png", rating: "9.2", language: "HINDI",
+        title: "CHHAAVA", image: ".../Images/chhaava.png", rating: "9.2", language: "HINDI",
         url: "https://www.youtube.com/embed/77vRyWNqZjM?si=tmD4NeicPyo1S9pS",
         description: "After Chhatrapati Shivaji Maharaj`s death, the Mughals aim to expand into the Deccan, only to face his fearless son, Chhatrapati Sambhaji Maharaj. Chhaava, inspired by Shivaji Sawant`s novel, chronicles Chhatrapati Sambhaji Maharaj`s unwavering resistance against Aurangzeb, marked by courage, strategy, and betrayal.",
         director: "Laxman Utekar", stars: "Vicky Kaushal, Rashmika Mandanna, Akshaye Khanna", genres: "Action, Drama, Historical",
@@ -492,7 +492,7 @@ export const movies = [
 
     //telugu movies
     {
-        title: "RRR", image: "../Images/rrr1.jpg", rating: "7.8", language: "TELUGU",
+        title: "RRR", image: ".../Images/rrr1.jpg", rating: "7.8", language: "TELUGU",
         url: "https://www.youtube.com/embed/NgBoMJy386M?si=jb_F4xBp1VcXZfpa",
         description: "RRR is an epic action drama film that tells a fictitious story about two real-life Indian revolutionaries, Alluri Sitarama Raju and Komaram Bheem, who fought against British colonial rule and the Nizam of Hyderabad, respectively. The film stars Ram Charan as Alluri Sitarama Raju and N.T. Rama Rao Jr. as Komaram Bheem, showcasing their journey from being philosophically opposed to joining forces to rescue a kidnapped girl.",
         director: "S.S. Rajamouli", stars: "N.T.Rama Rao Jr.,Ram Charan,Ajay Devgn,Alia Bhatt", genres: "Action,Adventure,Drama",
@@ -524,7 +524,7 @@ export const movies = [
 
 
     {
-        title: "SALAAR", image: "../Images/salaar.jpg", rating: "8.2", language: "TELUGU",
+        title: "SALAAR", image: ".../Images/salaar.jpg", rating: "8.2", language: "TELUGU",
         url: "https://www.youtube.com/embed/4GPvYMKtrtI?si=4gPuZYVIDLYu_wrz",
         description: "The fate of a violently contested kingdom hangs on the fraught bond between two friends-turned-foes in this saga of power, bloodshed and betrayal. Reviewers say 'Salaar' is acclaimed for its action, performances, and direction, with strong world-building and cinematography.",
         director: "Prashanth Neel", stars: "Prabhas,Prithviraj Sukumaran,Shruti Haasan,Jagapathi Babu", genres: "Action,Crime,Drama,Thriller",
@@ -556,7 +556,7 @@ export const movies = [
 
 
     {
-        title: "JERSEY", image: "../Images/jersey.jpg", rating: "8.5", language: "TELUGU",
+        title: "JERSEY", image: ".../Images/jersey.jpg", rating: "8.5", language: "TELUGU",
         url: "https://www.youtube.com/embed/AjAe_Q1WZ_8?si=YfisHG8SW4e8yebh",
         description: "Jersey Story: Frustrated with his life away from the dressing room, former Ranji Cricket player Arjun Talwar (Shahid Kapoor) decides to return to the sport at the age of 36 to prove his worth to his wife, Vidhya (Mrunal Thakur) and to remain a hero for his school-going son (Ronit Kamra).",
         director: "Gowtam Tinnanuri", stars: "Nani,Shraddha Srinath,Sathyaraj", genres: "Drama,Sport",
@@ -588,7 +588,7 @@ export const movies = [
 
 
     {
-        title: "JAANU", image: "../Images/jaanu2.webp", rating: "7.0", language: "TELUGU",
+        title: "JAANU", image: ".../Images/jaanu2.webp", rating: "7.0", language: "TELUGU",
         url: "https://www.youtube.com/embed/8sWRT2hGPcQ?si=l8hzq1HA0mej1HFt",
         description: "Jaanu is a 2020 Indian Telugu-language romantic drama film written and directed by C. Prem Kumar. It is a remake of Kumar's own Tamil film '96 (2018). It is produced by Dil Raju's Sri Venkateswara Creations, and stars Sharwanand and Samantha Ruth Prabhu. The film revolves around the reunion of former students from a 2004 batch fifteen years after their graduation.",
         director: "C. Prem Kumar", stars: "Sharwanand,Samantha Ruth Prabhu", genres: "Drama,Romance",
@@ -620,7 +620,7 @@ export const movies = [
 
 
     {
-        title: "KALKI 2898-AD", image: "../Images/kalki1.webp", rating: "7.0", language: "TELUGU",
+        title: "KALKI 2898-AD", image: ".../Images/kalki1.webp", rating: "7.0", language: "TELUGU",
         url: "https://www.youtube.com/embed/y1-w1kUGuz8?si=4nf6wWsvxTPJF1v4",
         description: "In the aftermath of Kurukshetra War, Ashwatthama unleashes Brahmastra in a bid to murder the unborn child of Uttarā, aiming to end the lineage of Pandavas. As punishment, Krishna curses him with immortality and eternal suffering, condemning him to wander the Earth until he redeems himself by protecting the mother of Kalki, the prophesied final avatar of Vishnu.",
         director: "Nag Ashwin", stars: "Amitabh Bachchan,Kamal Haasan,Prabhas,Deepika Padukone,Disha Patani", genres: "",
@@ -684,7 +684,7 @@ export const movies = [
 
 
     {
-        title: "MAD SQUARE", image: "../Images/mad.png", rating: "5.8", language: "TELUGU",
+        title: "MAD SQUARE", image: ".../Images/mad.png", rating: "5.8", language: "TELUGU",
         url: "https://www.youtube.com/embed/x9jlQ0_K5Zc?si=u2y5t8QhOdQcCPmZ",
         description: "At its core, Mad Square is a comedy that thrives on its lighthearted storytelling, slapstick humor, and quirky characters. The film embraces chaos and absurdity, ensuring that audiences get their fair share of laughter.",
         director: "Kalyan Shankar,Murali", stars: "Narne Nithiin,Ram Nithin,Sangeeth Shobhan", genres: "Comedy",
@@ -718,7 +718,7 @@ export const movies = [
 
     //tamil movies
     {
-        title: "JAILER", image: "../Images/ja1.jpg", rating: "7.1", language: "TAMIL",
+        title: "JAILER", image: ".../Images/ja1.jpg", rating: "7.1", language: "TAMIL",
         url: "https://www.youtube.com/embed/Y5BeWdODPqo?si=ihO61qBaNSPHmtDD",
         description: "Jailer is a Tamil action drama moviestarring Rajinikanth. The movie is directed and written by Nelson, with music director Anirudh forming part of the crew. The movie follows the story of a retired jailer Muthuvel Pandiyan (Rajinikanth) who goes on a manhunt to find his son’s (Vasanth Ravi) killers. But the road leads him to a familiar, albeit a bit darker place.",
         director: "Nelson Dilipkumar", stars: "Rajinikanth,Vinayakan,Ramya Krishnan,Tamannaah Bhatia", genres: "Action,Comedy,Crime,Thriller",
@@ -750,7 +750,7 @@ export const movies = [
 
 
     {
-        title: "NILAVUKU EN MEL ENNADI KOBAM ", image: "../Images/ni.jpg", rating: "5.8",
+        title: "NILAVUKU EN MEL ENNADI KOBAM ", image: ".../Images/ni.jpg", rating: "5.8",
         url: "https://www.youtube.com/embed/M3nu9ftN1_Q?si=-9Vxbo9D3fA6hyBe", language: "TAMIL",
         description: "Prabhu, a passionate chef in his early twenties, is struggling to move on from a break-up that happened a year ago with his ex-girlfriend, Nila. Despite his emotional turmoil, his parents arrange a marriage prospect for him, leading him to meet his childhood friend, Preethi.",
         director: "Dhanush", stars: "Pavish Narayan,Mathew Thomas,Anikha Surendran,Priya Prakash Varrier", genres: "Comedy,Drama,Romance",
@@ -782,7 +782,7 @@ export const movies = [
 
 
     {
-        title: "DRAGON", image: "../Images/dr.jpg", rating: "7.9", language: "TAMIL",
+        title: "DRAGON", image: ".../Images/dr.jpg", rating: "7.9", language: "TAMIL",
         url: "https://www.youtube.com/embed/m1i-sYxTX8I?si=Nw3c-3XRSAaDIYiU",
         description: "In 2014, D. Ragavan, a diligent 12th-standard student, wins a gold medal in computer science. Encouraged by his achievement, he confesses his feelings to his crush, Anjana, but she rejects him, preferring rebellious boys over well-mannered ones like him. Heartbroken, Ragavan transforms into a rebellious student, adopting the moniker 'Dragon'.",
         director: "Ashwath Marimuthu", stars: "	Pradeep Ranganathan,Anupama Parameswaran,Kayadu Lohar", genres: "Comedy,Drama,Romance",
@@ -814,7 +814,7 @@ export const movies = [
 
 
     {
-        title: "TOURIST FAMILY", image: "../Images/tf3.jpg", rating: "8.3",
+        title: "TOURIST FAMILY", image: ".../Images/tf3.jpg", rating: "8.3",
         url: "https://www.youtube.com/embed/9sH1PoGOydc?si=_0UPTWwx_vkvsRax", language: "TAMIL",
         description: "Set against the backdrop of post-COVID economic challenges in Sri Lanka, A Sri Lankan Tourist family moves to India in search of a fresh start, their warmth, wit, and boundless kindness breathe new life into a disconnected neighborhood — turning strangers into a spirited, united community.",
         director: "Abishan Jeevinth", stars: "M.Sasikumar,Simran,Mithun Jai Sankar,Kamalesh Jagan", genres: "Comedy,Drama",
@@ -846,7 +846,7 @@ export const movies = [
 
 
     {
-        title: "VIKRAM", image: "../Images/vi.jpg", rating: "8.3", language: "TAMIL",
+        title: "VIKRAM", image: ".../Images/vi.jpg", rating: "8.3", language: "TAMIL",
         url: "https://www.youtube.com/embed/OKBMCL-frPU?si=b-tSR4NIBhMUguau",
         description: "Amar, the leader of a black ops squad, is called upon by Police Commissioner Jose to bring justice against a group of masked vigilantes responsible for the murder of Stephen Raj, ACP Prabhanjan and his foster father, Karnan. The gang killed Stephen after being arrested and subsequently released following his imprisonment for assisting criminals Adaikalam and Anbu.",
         director: "Lokesh Kanagaraj", stars: "Kamal Haasan,Vijay Sethupathi,Fahadh Faasil", genres: "Action,Crime,Thriller",
@@ -878,7 +878,7 @@ export const movies = [
 
 
     {
-        title: "AMARAN", image: "../Images/am.jpg", rating: "8.1", language: "TAMIL",
+        title: "AMARAN", image: ".../Images/am.jpg", rating: "8.1", language: "TAMIL",
         url: "https://www.youtube.com/embed/U3aPapvUihg?si=Amo30WyNwQgIXGGx",
         description: "Amaran is a biographical drama directed by Rajkumar Periasamy, featuring Sivakarthikeyan and Sai Pallavi in lead roles. The film is set against the backdrop of the Qazipathri Operation in Shopian, Kashmir, which occurred in 2014, and it tells the story of Major Mukund Varadarajan.",
         director: "	Rajkumar Periasamy", stars: "Sivakarthikeyan,Sai Pallavi", genres: "Action,Biography,Drama,War",
@@ -909,7 +909,7 @@ export const movies = [
     },
     //malayalam movies
     {
-        title: "MANJUMMEL BOYS", image: "../Images/ma1.jpg", rating: "8.2", language: "MALAYALAM",
+        title: "MANJUMMEL BOYS", image: ".../Images/ma1.jpg", rating: "8.2", language: "MALAYALAM",
         url: "https://www.youtube.com/embed/rqBuKT_8dMY?si=VGKt839LZl3C9lVB",
         description: "Based on a real life incident that happened in Guna Caves in 2006, the film follows a group of friends from a small locality called Manjummel near Kochi, who decide to have a vacation in Kodaikanal, which is affected when one of them becomes trapped in the Guna Caves.",
         director: "Chidambaram", stars: "Soubin Shahir,Sreenath Bhasi,Deepak Parambol,Balu Varghese", genres: "Adventure,Drama,Thriller",
@@ -941,7 +941,7 @@ export const movies = [
 
 
     {
-        title: "GYMKHANA", image: "../Images/ga.jpg", rating: "7.0", language: "MALAYALAM",
+        title: "GYMKHANA", image: ".../Images/ga.jpg", rating: "7.0", language: "MALAYALAM",
         url: "https://www.youtube.com/embed/qN2_tLs4eIA?si=cLx5EE_2s0iPoGxL",
         description: "A 19-year-old battling an identity crisis and tangled love triangles stumbles into the state boxing championship for grace marks. Under Joshuas tough training, Jojo and his misfit classmates transform from rookies to real contenders.",
         director: "Khalid Rahman", stars: "Naslen,Lukman Avaran,Ganapathi", genres: " Sports, Comedy",
@@ -973,7 +973,7 @@ export const movies = [
 
 
     {
-        title: "AAVESHAM", image: "../Images/aa1.jpg", rating: "7.3", language: "MALAYALAM",
+        title: "AAVESHAM", image: ".../Images/aa1.jpg", rating: "7.3", language: "MALAYALAM",
         url: "https://www.youtube.com/embed/L0yEMl8PXnw?si=vmNxXW5vFFe_AiCn",
         description: "In the film, three youngsters in Bengaluru befriends a local gangster to help them take revenge on their college bully.",
         director: "Jithu Madhavan", stars: "Fahadh Faasil,Hipzster,Mithun Jai Sankar,Roshan Shanavas", genres: "Action,Comedy",
@@ -1009,7 +1009,7 @@ export const movies = [
     // TV SHOWS
     export const TvShows = [
     {
-        title: "BIGBOSS", image: "../Images/b3.jpg", rating: "5.5",
+        title: "BIGBOSS", image: ".../Images/b3.jpg", rating: "5.5",
         url: "https://www.youtube.com/embed/EN0LppWerZQ?si=ng3YNxp6krmKBH7D",
         description: "Bigg Boss is an Indian Telugu -language television reality show of the Bigg Boss franchise which airs on Star Maa and streams on Disney+ Hotstar in India. It follows the format of the Dutch reality show Big Brother, which was first developed by Endemol in the Netherlands.",
         director: "-", stars: "Nagarjuna Akkineni,Nani,Kaushal Manda", genres: "Reality-TV",
@@ -1041,7 +1041,7 @@ export const movies = [
 
 
     {
-        title: "STRANGER THINGS", image: "../Images/ss1.jpg", rating: "8.6",
+        title: "STRANGER THINGS", image: ".../Images/ss1.jpg", rating: "8.6",
         url: "https://www.youtube.com/embed/b9EkMc79ZSU?si=xzqdgGTPdA7lr0vJ",
         description: "Stranger Things is a sci-fi horror-drama series set in the small fictional American town of Hawkins, Indiana, in the early ‘80s. The series follows the story of a group of kids around whom strange supernatural events start unfolding, as the result of an illicit science experiment gone wrong. The show combines numerous genres, from science-fiction to horror, action and drama.",
         director: "Matt Duffer,Ross Duffer", stars: "Winona Ryder,David Harbour,Finn Wolfhard,Millie Bobby Brown", genres: "Drama,Fantasy,Horror,Mystery,Sci-Fi,Thriller",
@@ -1072,7 +1072,7 @@ export const movies = [
 
 
     {
-        title: "ISMART JODI", image: "../Images/jo.jpg", rating: "5.0",
+        title: "ISMART JODI", image: ".../Images/jo.jpg", rating: "5.0",
         url: "https://www.youtube.com/embed/eGR68nhjFlk?si=dm9M-hqyBpD8QtYV",
         description: "Ishmart Jodi was a hit reality show aired on Star Maa. In Ishmart Jodi 12 celebrity couples participated to win the trophy. In the show, they had to do many fun-filled tasks to show that they are the best Jodi there is. In the show, they had to do different tasks to show their compatibility as a pair.",
         director: "-", stars: "Ohmkar", genres: "Reality Show",
@@ -1104,7 +1104,7 @@ export const movies = [
 
 
     {
-        title: "MAHA BHARATH", image: "../Images/ma.jpg", rating: "8.9",
+        title: "MAHA BHARATH", image: ".../Images/ma.jpg", rating: "8.9",
         url: "https://www.youtube.com/embed/_oRB1hymO14?si=v_b4e1r8TE2sc3s_",
         description: "The story begins with Bhishma, the son of King Shantanu and Ganga, who is crowned as the heir to the throne of Hastinapura. When Shantanu falls in love with Satyavati, a fisherwoman, she agrees to marry him only on the condition that her children will inherit the throne.",
         director: "	Siddharth Anand Kumar,Amarprith G", stars: "Saurabh Raj Jain,Aham Sharma,Pooja Sharma",
@@ -1136,7 +1136,7 @@ export const movies = [
 
 
     {
-        title: "FAST & FURIOUS", image: "../Images/f.webp", rating: "8.7",
+        title: "FAST & FURIOUS", image: ".../Images/f.webp", rating: "8.7",
         url: "https://www.youtube.com/embed/uisBaTkQAEs?si=AH2eImsCU29HON6q",
         description: "The eighth entry in the Fast & Furious franchise, The Fate Of The Furious follows the continued adventures of Dom Toretto. Entangled with loan sharks and cyberterrorists, Dom is forced to get back on the race track to protect his family and loved ones.",
         director: "Gary Scott Thompson", stars: "Paul walker,Vin diesel,Michelle rodriguez,Jordana brewster", genres: "Action,Crime,Thriller",
@@ -1167,7 +1167,7 @@ export const movies = [
 
 
     {
-        title: "RANA NAIDU", image: "../Images/ra.webp", rating: "7.2",
+        title: "RANA NAIDU", image: ".../Images/ra.webp", rating: "7.2",
         url: "https://www.youtube.com/embed/7OO5uGvNZpM?si=_WtmVxlTispCPvkw",
         description: "Rana Naidu is an Indian action-crime series on Netflix. The show follows the life of Rana Naidu, a fixer in Mumbai who cleans up the messes of high-profile clients, including celebrities, athletes, and business moguls.",
         director: "Karan anshuman,Suparn verma", stars: "Venkatesh Daggubati, Rana Daggubati,Arjun Rampal", genres: "Action,Crime,Drama",
@@ -1198,7 +1198,7 @@ export const movies = [
 
 
     {
-        title: "BREAKING BAD", image: "../Images/b2.jpg", rating: "9.5",
+        title: "BREAKING BAD", image: ".../Images/b2.jpg", rating: "9.5",
         url: "https://www.youtube.com/embed/HhesaQXLuRY?si=_O7BjkSANwNLJb05",
         description: "Breaking Bad is a critically acclaimed television series set in Albuquerque, New Mexico. It follows Walter White, a high school chemistry teacher who, after being diagnosed with terminal lung cancer, turns to manufacturing and selling methamphetamine to secure his family's financial future. The show explores themes of morality, family, and the consequences of crime.",
         director: "Vince Gilligan", stars: "Bryan Cranston,Anna Gunn,Aaron Paul,Dean Norris", genres: "Crime,Drama,Thriller",

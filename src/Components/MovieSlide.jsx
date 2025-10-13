@@ -14,7 +14,7 @@ const movies = [
     rating: "8.4",
     time: "2h 7mins",
     certified: "UA16+",
-    img: "/Images/mad.png",
+    img: "./Images/mad.png",
   },
   {
     title: "CHHAAVA",
@@ -24,7 +24,7 @@ const movies = [
     rating: "9.2",
     time: "2h 41mins",
     certified: "UA16+",
-    img: "/Images/chhaava.png",
+    img: "./Images/chhaava.png",
   },
   {
     title: "WARFARE",
@@ -34,7 +34,7 @@ const movies = [
     rating: "8.4",
     time: "1h 38mins",
     certified: "A",
-    img: "/Images/warfare.jpg",
+    img: "./Images/warfare.jpg",
   },
 ];
 
@@ -48,7 +48,7 @@ const MovieSlide = () => {
   return (
     <div
       className="movie-slide-wrapper"
-      style={{ backgroundImage: "url('/Images/login.png')" }}
+      style={{ backgroundImage: "url('./Images/login.png')" }}
     >
       <div className="overlay-content">
         <Carousel indicators={false} controls={true}>
