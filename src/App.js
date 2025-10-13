@@ -1,8 +1,8 @@
-import {  HashRouter as BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Login from './Pages/Login';
 import Home from './Pages/Home';
@@ -22,38 +22,35 @@ function App() {
   }, [token]);
 
   return (
-    <BrowserRouter basename="/starflix">
+    <HashRouter>
       <Routes>
-        {/* default route */}
+        {/* Default route */}
         <Route path="/" element={<Navigate to="/login" />} />
 
-        {/* login */}
+        {/* Login */}
         <Route path="/login" element={<Login setToken={setToken} />} />
 
-        {/* home */}
+        {/* Home */}
         <Route path="/home" element={<Home />} />
 
-        {/* movies */}
+        {/* Movies */}
         <Route path="/movies" element={<Movies />} />
         <Route path="/movies/:slug" element={<MovieDetails />} />
 
-        {/* movie details */}
-        <Route path="/moviedetails" element={<MovieDetails />} />
-
-        {/* tv shows */}
+        {/* TV Shows */}
         <Route path="/tvshows" element={<TvShows />} />
         <Route path="/tvshows/:slug" element={<MovieDetails />} />
 
-        {/* new & popular */}
+        {/* New & Popular */}
         <Route path="/popular" element={<NewPopular />} />
 
-        {/* profile */}
+        {/* Profile */}
         <Route path="/profile" element={<Profile />} />
 
-        {/* home movies */}
+        {/* Home Movies */}
         <Route path="/homemovies" element={<HomeMovies />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

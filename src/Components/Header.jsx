@@ -50,31 +50,22 @@ const Header = () => {
                 drop="down"
                 renderMenuOnMount={true}
               >
-                {/* Username only — not clickable */}
                 <NavDropdown.ItemText>
-                  <span
-                    style={{
-                      fontWeight: "bold",
-                      color: "white",
-                      textDecoration: "none",
-                    }}
-                  >
-                    DIGIT IT
-                  </span>
+                  <span style={{ fontWeight: "bold", color: "white" }}>DIGIT IT</span>
                 </NavDropdown.ItemText>
 
                 <NavDropdown.Divider style={{ borderColor: "white" }} />
 
-                {/* Account navigates to profile */}
+                {/* Account */}
                 <NavDropdown.Item onClick={() => navigate("/profile")} style={{ color: "white" }}>
                   Account
                 </NavDropdown.Item>
 
-                {/* Signout */}
+                {/* Sign out */}
                 <NavDropdown.Item
                   onClick={() => {
-                    console.log("Sign out clicked");
-                    navigate("/login"); // or your logout logic
+                    localStorage.removeItem('token');
+                    navigate("/login");
                   }}
                   style={{ color: "white" }}
                 >
