@@ -7,18 +7,18 @@ import { useNavigate } from 'react-router-dom';
 import PaginationBar from "../Components/PaginationBar";
 
 const allpopular = [
-  { title: "KALKI 2898-AD", image: "Images/kalki1.webp", language: "TELUGU" },
-  { title: "SALAAR", image: "Images/salaar.jpg", language: "TELUGU" },
-  { title: "BREAKING BAD", image: "Images/b2.jpg" },
-  { title: "TOURIST FAMILY", image: "Images/tf3.jpg", language: "TAMIL" },
-  { title: "BIGBOSS", image: "Images/b3.jpg" },
-  { title: "HIT The third case", image: "Images/hit.webp", language: "TELUGU" },
-  { title: "STRANGER THINGS", image: "Images/ss1.jpg" },
-  { title: "OPPENHEIMER", image: "Images/opp.webp", language: "ENGLISH" },
-  { title: "AVATAR The way of water", image: "Images/avatar.jpg", language: "ENGLISH" },
-  { title: "CHHAAVA", image: "Images/chhaava.png", language: "HINDI" },
-  { title: "NILAVUKU EN MEL ENNADI KOBAM", image: "Images/ni.jpg", language: "TAMIL" },
-  { title: "DRAGON", image: "Images/dr.jpg", language: "TAMIL" },
+  { title: "KALKI 2898-AD", image: process.env.PUBLIC_URL + "/Images/kalki1.webp", language: "TELUGU" },
+  { title: "SALAAR", image: process.env.PUBLIC_URL + "/Images/salaar.jpg", language: "TELUGU" },
+  { title: "BREAKING BAD", image: process.env.PUBLIC_URL + "/Images/b2.jpg" },
+  { title: "TOURIST FAMILY", image: process.env.PUBLIC_URL + "/Images/tf3.jpg", language: "TAMIL" },
+  { title: "BIGBOSS", image: process.env.PUBLIC_URL + "/Images/b3.jpg" },
+  { title: "HIT The third case", image: process.env.PUBLIC_URL + "/Images/hit.webp", language: "TELUGU" },
+  { title: "STRANGER THINGS", image: process.env.PUBLIC_URL + "/Images/ss1.jpg" },
+  { title: "OPPENHEIMER", image: process.env.PUBLIC_URL + "/Images/opp.webp", language: "ENGLISH" },
+  { title: "AVATAR The way of water", image: process.env.PUBLIC_URL + "/Images/avatar.jpg", language: "ENGLISH" },
+  { title: "CHHAAVA", image: process.env.PUBLIC_URL + "/Images/chhaava.png", language: "HINDI" },
+  { title: "NILAVUKU EN MEL ENNADI KOBAM", image: process.env.PUBLIC_URL + "/Images/ni.jpg", language: "TAMIL" },
+  { title: "DRAGON", image: process.env.PUBLIC_URL + "/Images/dr.jpg", language: "TAMIL" },
 ];
 
 const Newpopular = () => {

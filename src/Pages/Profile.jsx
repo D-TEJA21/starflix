@@ -175,7 +175,7 @@ function Profile() {
           <div className="img-text">
             <div className="profile-img">
               <img
-                src={user.profile_image || './Images/user-img.png'}
+                src={user.profile_image || process.env.PUBLIC_URL + '/Images/user-img.png'}
                 alt="Profile"
                 style={{
                   width: '150px',

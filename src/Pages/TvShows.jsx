@@ -10,13 +10,13 @@ import PaginationBar from '../Components/PaginationBar';
 
 // TV SHOWS DATA
 const allTvShows = [
-  { title: "BREAKING BAD", image: "Images/b2.jpg" },
-  { title: "FAST & FURIOUS", image: "Images/f.webp" },
-  { title: "BIGBOSS", image: "Images/b3.jpg" },
-  { title: "STRANGER THINGS", image: "Images/ss1.jpg" },
-  { title: "ISMART JODI", image: "Images/jo.jpg" },
-  { title: "MAHA BHARATH", image: "Images/ma.jpg" },
-  { title: "RANA NAIDU", image: "Images/ra.webp" },
+  { title: "BREAKING BAD", image: process.env.PUBLIC_URL + "/Images/b2.jpg" },
+  { title: "FAST & FURIOUS", image: process.env.PUBLIC_URL + "/Images/f.webp" },
+  { title: "BIGBOSS", image: process.env.PUBLIC_URL + "/Images/b3.jpg" },
+  { title: "STRANGER THINGS", image: process.env.PUBLIC_URL + "/Images/ss1.jpg" },
+  { title: "ISMART JODI", image: process.env.PUBLIC_URL + "/Images/jo.jpg" },
+  { title: "MAHA BHARATH", image: process.env.PUBLIC_URL + "/Images/ma.jpg" },
+  { title: "RANA NAIDU", image: process.env.PUBLIC_URL + "/Images/ra.webp" },
 ];
 
 const TvShows = () => {

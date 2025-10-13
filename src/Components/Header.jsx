@@ -18,7 +18,11 @@ const Header = () => {
         <Container>
           {/* Logo */}
           <Navbar.Brand as={NavLink} to="/home">
-            <img src="./Images/logo1.png" alt="logo" width="130px" />
+            <img 
+              src={`${process.env.PUBLIC_URL}/Images/logo1.png`} 
+              alt="logo" 
+              width="130px" 
+            />
           </Navbar.Brand>
 
           {/* Toggle for mobile */}
@@ -35,7 +39,7 @@ const Header = () => {
               <NavDropdown
                 title={
                   <img
-                    src={user.profile_image || "./Images/digit.png"}
+                    src={user.profile_image || `${process.env.PUBLIC_URL}/Images/digit.png`}
                     alt="Profile"
                     style={{ width: "40px", height: "40px", borderRadius: "50%" }}
                   />
